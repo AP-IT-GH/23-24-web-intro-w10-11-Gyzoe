@@ -36,11 +36,11 @@ fetch('')
             const user = response.results[i];
             html += `<div class="card col-12 col-sm-6 col-md-4">
 
-			<img src="${user.}" class="card-img-top" alt="foto van          ">
+			<img src="${user}" class="card-img-top" alt="foto van          ">
 
 			<div class="card-body">
 			<p class="card-title text-uppercase fs-6 fw-bolder pt-3">         </p>
-			<p class="card-text h6 small mt-2">Ik kom uit  en ben fan van de koffiebonen van ${   }!</p>
+			<p class="card-text h6 small mt-2">Ik kom uit  en ben fan van de koffiebonen van ${user}!</p>
 			<a href="mailto:     ">
 			  <i class="bi bi-envelope koffiebruin fs-3"></i>
 			</a>

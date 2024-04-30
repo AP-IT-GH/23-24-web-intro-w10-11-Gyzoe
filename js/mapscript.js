@@ -2,6 +2,8 @@
 Gebruik hiervoor de documentatie op https://leafletjs.com/ 
 */
 
+
+
 let map = L.map('apMap').setView([51.23009, 4.41616], 17);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
