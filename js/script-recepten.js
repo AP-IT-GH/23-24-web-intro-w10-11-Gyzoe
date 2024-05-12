@@ -1,4 +1,4 @@
-fetch('https://api.sampleapis.com/coffee/hot/?results=20')
+fetch('https://api.sampleapis.com/coffee/hot/')
     .then(function (response) {
         // nakijken of de API-call een antwoord terugstuurt
         if (response.ok) {
@@ -15,9 +15,9 @@ fetch('https://api.sampleapis.com/coffee/hot/?results=20')
         console.log(response);
         // plaats een section met grid
         let html = '<div class="accordion accordion-flush" id="accordionExample">';
-        // plaats van de recepten met afbeelding, titel, ingrediënten en beschrijving in HTML
+        // plaats van de gebruikers met afbeelding, naam,...in HTML
         console.log(response.length);
-        for (let i = 0; i < response.length - 2; i++) {
+        for (let i = 0; i < response.length; i++) {
             const recipe = response[i];
             html += `<div class="accordion-item">
 
